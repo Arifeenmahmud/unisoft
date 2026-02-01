@@ -21,5 +21,38 @@ public class LoanSummaryDto {
     }
 
     // getters
+
+
+    public Loan getLoan() {
+        return loan;
+    }
+
+    public void setLoan(Loan loan) {
+        this.loan = loan;
+    }
+
+    public BigDecimal getTotalPaid() {
+        return totalPaid;
+    }
+
+    public void setTotalPaid(BigDecimal totalPaid) {
+        this.totalPaid = totalPaid;
+    }
+
+    public BigDecimal getRemainingBalance() {
+        return remainingBalance;
+    }
+
+    public void setRemainingBalance(BigDecimal remainingBalance) {
+        this.remainingBalance = remainingBalance;
+    }
+
+    public LoanStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(LoanStatus status) {
+        this.status = status;
+    }
 }
 
